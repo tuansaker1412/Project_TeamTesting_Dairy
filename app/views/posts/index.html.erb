@@ -1,0 +1,11 @@
+<%= @posts.each do |post| %>
+    <h2><%= post.title %></h2>
+    <div>
+        <%= post.date %>
+    </div>
+    <div>
+        <%= truncate(post.body, :length =>500) %>
+    </div>
+    <%= link_to "Đọc thêm..." , post %>
+    <hr size ="2px" color = "red" >
+<% end %>

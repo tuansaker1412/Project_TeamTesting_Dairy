@@ -1,0 +1,10 @@
+<h1> <%= @post.title %></h1>
+<div>
+    <%= @post.date %>
+</div>
+<div>
+    <%= @post.body %>
+</div>
+<br>
+<%= link_to "Sửa bài viết ", edit_post_path %>
+<%= link_to "Xóa bai viết ", post_path(@post), method: :delete, data: { confirm: "Bạn thực sự muốn xóa chứ?"} %>
