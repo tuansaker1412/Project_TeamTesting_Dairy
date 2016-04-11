@@ -6,6 +6,8 @@
     <div>
         <%= truncate(post.body, :length =>500) %>
     </div>
-    <%= link_to "Đọc thêm..." , post %>
+    <div class="btn-group">
+	    <%= link_to "Đọc thêm...",  post , class: "btn btn-primary" %>
+    </div>
     <hr size ="2px" color = "red" >
 <% end %>

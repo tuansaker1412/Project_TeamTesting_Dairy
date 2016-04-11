@@ -6,8 +6,11 @@
     <%= f.label :"Nội dung nhật ký" %><br>
     <%= f.text_area :body %><br>
     
-    <%= f.label :"Ngay" %><br>
+    <%= f.label :"Ngày" %><br>
     <%= f.text_area :date %><br>
     <br>
-    <%= f.submit %>
+    <div class="btn-group">
+	    <%= f.submit "Tạo nhật ký", class: "btn btn-primary" %>
+    </div>
+    
     <% end %>
