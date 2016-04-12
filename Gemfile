@@ -48,3 +48,13 @@ end
 gem 'devise', '~> 3.5', '>= 3.5.6'
 gem 'acts_as_votable', '~> 0.10.0'
 gem 'simple_form', '~> 3.2', '>= 3.2.1'
+
+group :test, :development do
+  gem 'cucumber-rails', :require => false
+  # database_cleaner is not required, but highly recommended
+  gem 'database_cleaner'
+end
+
+group :development, :test do
+  gem 'rspec-rails', '~> 3.0'
+end
