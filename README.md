@@ -2,7 +2,7 @@
 ###Thông tin môn học
 
 ###Bộ môn: Công nghệ phần mềm (INT 2208-3)
-##Giảng viên: Trương Anh Hoàng
+####Giảng viên: Trương Anh Hoàng
 
 ###Thông tin về nhóm:
 - Phạm Huy Mạnh
@@ -13,9 +13,9 @@
 
 ###Thông tin về dự án:
 - Tên: Nhật kí online.
-- Mã nguồn: 
+- Mã nguồn: https://github.com/INT22083-Testing/Project_TeamTesting_Dairy
 - Trang quản lý công việc: https://www.pivotaltracker.com/n/projects/1555849
-- Trang demo: 
+- Trang demo: https://boiling-refuge-17111.herokuapp.com/
 
 ###Mô tả chức năng:
 Nhatkyonline là dự án thiết kế và xây dựng một diễn đàn sử dụng ROR framework với các chức năng cơ bản:
